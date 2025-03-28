@@ -74,7 +74,19 @@ button {
   align-self: center;
 }
 
-.foto1 {
-    max-width: 350px;
+.foto1 img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 767px) {
+  .foto1 {
+    text-align: center;
+    margin-top: 20px;
   }
+
+  .foto1 img {
+    max-width: 300px;
+  }
+}
 
